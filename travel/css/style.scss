@@ -1,0 +1,16 @@
+@import '_header.scss';
+
+.buddy{
+    position: relative;
+    overflow: hidden;
+    top: 7rem;
+
+    .hadi{
+        position: absolute;
+        img{
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+        }
+    }
+}
